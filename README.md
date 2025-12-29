@@ -1,7 +1,7 @@
 # Airline Reservation System (C++ Retro Project)
 
 A classic console-based Airline Reservation System I developed in C++ as a semester project back in 2012, during my second semester of BS Electrical Engineering. This project manages passenger details, flight selection (Domestic/International), and generates unique reservation passwords for secure ticket retrieval.
-## 📸 Overview
+## Overview
 
 This application simulates a terminal-based booking experience where users can:
 
@@ -13,14 +13,14 @@ This application simulates a terminal-based booking experience where users can:
 - Save reservation data to a local text file named after the password.
 - Retrieve and display ticket information using the generated password.
 
-## 🛠 Features
+## Features
 
 - **File I/O**: Uses `fstream` to create persistent records of bookings.
 - **Password Generator**: A custom random string generator to act as a "Unique Booking Reference."
 - **Legacy Visuals**: Uses `system("color")` and `system("cls")` for a retro-themed command-line interface.
 - **Input Validation**: Basic error handling for menu selections and flight choices.
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
